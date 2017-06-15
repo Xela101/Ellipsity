@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="ellipsity.min.js"></script>
+		<style>
+			#container{
+				width:100px;
+				height:100px;
+				background-color:white;
+				border: 1px solid black;
+				padding:5px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<span>This is some text that I am going to ellipsify because the content this container contains is way way to long for the whole thing to be displayed and that is why I am doing this.</span>
+		</div>
+		
+		<script>
+			Ellipsity.ellipsify(document.getElementById("container"));
+		</script>
+	</body>
+</html>
