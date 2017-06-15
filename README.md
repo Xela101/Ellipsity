@@ -1,5 +1,5 @@
 # Ellipsity
-A JavaScript library that Ellipsis multiline text that overflows its container. Simple, Fast, Powerful!
+A JavaScript library that will Ellipsis text that overflows its container. Simple, Fast, Powerful!
 
 *Will dynamically ellipsis multiline text regardless of the amount of lines the text contains to the size of its parent container.
 
