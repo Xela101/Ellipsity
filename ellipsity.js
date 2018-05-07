@@ -2,7 +2,7 @@
 var Ellipsity = (function(){
 	function Ellipsity(){
 	}
-	
+
 	//Binary search to find optimal splitting points.
 	Ellipsity.prototype.binarySearch = function(length, callback) {
 		var low = 0;
@@ -15,10 +15,10 @@ var Ellipsity = (function(){
 			var result = callback(mid);
 			if (result < 0) {
 				high = mid - 1;
-			} 
+			}
 			else if (result > 0) {
 				low = mid + 1;
-			} 
+			}
 			else {
 				best = mid;
 				low = mid + 1;
@@ -26,7 +26,7 @@ var Ellipsity = (function(){
 		}
 		return best;
 	}
-	
+
 	//Check to see if the text is overflowing.
 	Ellipsity.prototype.isTextOverflowing = function(element)
 	{
@@ -38,7 +38,7 @@ var Ellipsity = (function(){
 		element.style.overflow = currentOverflow;
 		return isOverflowing;
 	}
-	
+
 	//Ellipsify the container so the last text element inside fits.
 	Ellipsity.prototype.ellipsify = function(container){
 		var self = this;

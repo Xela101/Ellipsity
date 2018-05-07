@@ -1,0 +1,17 @@
+{
+  "name": "Ellipsity",
+  "version": "1.0.0",
+  "description": "A JavaScript library that will Ellipsis text that overflows its container. Simple, Fast, Powerful!",
+  "main": "ellipsity.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xela101/Ellipsity.git"
+  },
+  "keywords": [],
+  "author": "Xela101",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xela101/Ellipsity/issues"
+  },
+  "homepage": "https://github.com/Xela101/Ellipsity#readme"
+}
