@@ -3,6 +3,10 @@ A JavaScript library that will Ellipsis text that overflows its container. Simpl
 
 * Will dynamically ellipsis multiline text regardless of the amount of lines the text contains to the size of its parent container.
 
+NPM Package
+
+https://www.npmjs.com/package/ellipsity/v/1.0.0
+
 ## Code Example
 ```javascript
 Ellipsity.ellipsify(document.getElementById("container"));
