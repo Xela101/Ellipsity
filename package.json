@@ -1,5 +1,5 @@
 {
-  "name": "Ellipsity",
+  "name": "ellipsity",
   "version": "1.0.0",
   "description": "A JavaScript library that will Ellipsis text that overflows its container. Simple, Fast, Powerful!",
   "main": "ellipsity.js",
